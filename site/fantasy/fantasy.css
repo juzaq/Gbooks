@@ -1,0 +1,132 @@
+body{
+	font-family: 'Playfair Display', serif;
+	margin: 0;
+	
+}
+.head{ 
+	background-color:#800000 ;
+}	 
+.DD{
+	padding:2em 0 0 2em ;
+
+    display: inline-block;
+    position: raletive;
+}
+
+button{
+	background-color: darkgoldenrod;
+    width: 13em;
+    height: 3.5em;
+}
+
+.DD-Cont{
+    display:none;
+    position: absolute;
+    width: 10.8em;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px 
+    rgba(0,0,0,0.4);
+    background-color: #800000;
+}
+
+.DD:hover .DD-Cont{
+    display: block;
+}
+
+.DD-Cont a{
+    display: block;
+    text-decoration: none;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.DD-Cont a:hover{
+    background-color: blue;
+}
+span{
+	font-size:2em ;
+	color: whitesmoke;
+}
+h1{
+
+	text-align: center;
+	font-size:50px;
+	color: whitesmoke;
+}
+.pic{
+	display: flex;
+	justify-content:center ;
+} 
+
+}
+.img
+{
+	
+	width: 350;
+	height: auto;
+	
+}
+.img1
+{
+	margin-left: 14em;
+	margin-right: 14em;
+	width: 350;
+	height: auto;
+	 
+}
+.img2
+{
+	width: 350;
+	height: auto;
+	
+}
+.name{
+	color: whitesmoke;
+	display: flex;
+	justify-content:center ;
+
+}
+.txt{
+	margin-right: 6em;
+	font-size: 2rem ;
+}
+.txt1{
+	margin:center ;
+	font-size: 2rem ;
+}
+.txt2{
+	margin-left: 6em;
+	font-size: 2rem ;
+}
+.read{
+	justify-content:center ;
+	display: flex;
+	text-transform:uppercase ;
+	text-decoration:none ;
+
+}
+.read h2 a{
+	text-decoration:none ;
+	color: darkgoldenrod;
+
+}
+.name1{
+	margin-right: 22em;
+	text-align: center;
+	justify-content:center ;
+
+}
+.name2{
+	margin-right:22em ;
+}
+.naem3{
+	margin-left: 10em;
+}
+section{
+	background:url(../mainsite/pictures/bgv.jpg) ;
+	padding-bottom:7em;
+		background-size:100% ;
+		background-position:50% 50% ;
+		margin-top: -2.5em;
+		padding-top: 2em;
+}
